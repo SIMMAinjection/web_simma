@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: 'open sans';
+   font-family: 'open sans';
+   background-color: #222831;
 }
 
 .contenedor{
@@ -16,7 +17,7 @@ body{
     overflow: hidden;
 }
 .titulo{
-    color: #642a73;
+    color: #FFD369;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -29,9 +30,9 @@ body{
  header{
     width: 100%;
     height: 600px;
-    background: #373B44;  
-    background: -webkit-linear-gradient(to right, #4286f4ab, #373b44a1), url(./Fotos/IMG_6963.JPG);  
-    background: linear-gradient(to right, #4286f4ab, #373b44a1), url(./Fotos/IMG_6963.JPG);
+    background: #222831;  
+    background: -webkit-linear-gradient(to right, #04697ea1, #03045Eab), url(./Fotos/IMG_6963.JPG);  
+    background: linear-gradient(to right, #04697ea1, #03045Eab), url(./Fotos/IMG_6963.JPG);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -50,12 +51,12 @@ body{
 
  .textos-header h1{
     font-size: 50px;
-    color: #fff;
+    color: #EEEEEE;
  }
 
  .textos-header h2{
     font-size: 25px;
-    color: #fff;
+    color: #EEEEEE;
  }
 
  .wave{
@@ -83,11 +84,12 @@ body{
 
  .contenedor-texto h3{
     margin-bottom: 15px;
+    color: #EEEEEE;
  }
 
  .contenedor-texto h3 span{
-    background: #4d0686;
-    color: #fff;
+    background: #FFD369;
+    color: #EEEEEE;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -98,15 +100,9 @@ body{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+    color: #EEEEEE;
  }
 
-
-
-
-
- .Los-chicos-a-cargo{
-    background: #f2f2f2;
- }
 
  .chicos{
     display: flex;
@@ -133,7 +129,7 @@ body{
 
 
 footer{
-    background: #414141;
+    background: #393E46;
     padding: 90px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -145,7 +141,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .content-foot{
@@ -153,32 +149,32 @@ footer{
 }
 
 .content-foot h4{
-    color: #fff;
-    border-bottom: 3px solid #af20d3;
+    color: #EEEEEE;
+    border-bottom: 3px solid #FFD369;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .content-foot a{
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
 .content-foot a:hover{
    tab-size: 12px;
    text-decoration: underline;
-   color: #790cd3;
+   color: #FFD369;
 }
 
 .content-foot p{
-   color: #fff;
+   color: #EEEEEE;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0;
-    color: #9e9797;
+    color: #EEEEEE;
 }
 
 @media screen and (max-width:900px){
